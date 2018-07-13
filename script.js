@@ -68,11 +68,11 @@ var MovieImage = React.createClass({
 
 var MovieTitle = React.createClass({
 	propTypes: {
-		tytul: React.PropTypes.string.isRequired
+		title: React.PropTypes.string.isRequired
 	},
 	render: function () {
 		return (
-			React.createElement('h2', {}, this.props.tytul)
+			React.createElement('h2', {}, this.props.title)
 		)
 	}
 });
